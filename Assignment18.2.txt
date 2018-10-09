@@ -1,0 +1,87 @@
+Step 1: Calculate the sample means:
+    Calculate sample means for Group 1 = (51 + 45 + 33 + 45 + 67)/5= 48.2
+    Calculate sample means for Group 2 = (23 + 43 + 23 + 43 + 45)/5= 35.4
+    Calculate sample means for Group 3 = (56 + 76 + 74 + 87 + 56)/5= 69.8
+    Therefore, the sample means (¯X¯) for the groups 1, 2 & 3 are:  48.2, 35.4, 69.8
+ 
+Step 2: Calculate squared deviations:
+
+For Group 1:
+  value mean deviations sq deviations
+1    51 48.2        2.8          7.84
+2    45 48.2       -3.2         10.24
+3    33 48.2      -15.2        231.04
+4    45 48.2       -3.2         10.24
+5    67 48.2       18.8        353.44
+Total                          612.80
+
+For Group 2:
+  value mean deviations sq deviations
+1    23 35.4      -12.4        153.76
+2    43 35.4        7.6         57.76
+3    23 35.4      -12.4        153.76
+4    43 35.4        7.6         57.76
+5    45 35.4        9.6         92.16
+Total                          515.20
+
+For Group 3:
+  value mean deviations sq deviations
+1    56 69.8      -13.8        190.44
+2    76 69.8        6.2         38.44
+3    74 69.8        4.2         17.64
+4    87 69.8       17.2        295.84
+5    56 69.8      -13.8        190.44
+Total                          732.80
+
+Therefore, the Sum of squared deviations from the mean (SS) for the groups are 
+Sum of squared deviations for Group 1 is 612.8
+Sum of squared deviations for Group 2 is 515.2 
+Sum of squared deviations for Group 3 is 732.8
+
+
+Step 3: Calculate the group variances for SS error:
+
+        Var1= 612.8 / (5-1)   = 153.2 
+        Var2= 515.2 / (5-1)   = 128.8
+        Var3= 732.8 / (5-1)   = 183.2
+
+MS error = (153.2+128.8+183.2) / 3 = 155.07 
+df error = 15-3 = 12
+SS error = MS error X df error = (155.07) x (15-3) = 1860.8
+
+Step 4: Calculating the variance of the sample means:
+        
+        Grand mean (X¯grand) = 48.2 + 35.4 + 69.83 = 51.13
+        
+        Group mean    Grand mean    Deviations     Sq deviations
+           48.2         51.13         -2.93            8.58
+           35.4         51.13         -15.73         247.43
+           69.8         51.13          18.67         348.57
+        
+Sum of squares (SS means) = ( 8.58 + 247.43 + 348.57)  =  604.58
+Var means = 604.58 / (3-1) = 302.29
+MS between=(302.29)X(5) = 1511.45
+
+Step 5: Calculating the remaining between (or group) terms of the ANOVA table:
+
+dfgroups = 3-1 = 2
+SSgroup  = (1511.45) (3-1) = 3022.9
+
+Test statistic and critical value
+F = 1511.45 / 155.07 = 9.75
+Fcritical(2,12) = 3.89
+
+Decision: Reject Null Hyothesis
+
+Therfore, the ANOVA table
+Source         SS     df     MS        F
+Group        3022.9    2    1511.45   9.75
+Error        1860.8    12   155.07
+Total        4883.7
+
+Effect size
+?2=3022.9 / 4883.7 = 0.62
+
+Step 6: Results in APA writeup
+
+F(2, 12)=9.75, p <0.05, ?2=0.62.
