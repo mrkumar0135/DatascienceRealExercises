@@ -1,5 +1,5 @@
 
-Assign1: What are the three stages to build the hypotheses or model in machine learning?
+Question1: What are the three stages to build the hypotheses or model in machine learning?
 
 Ans:
 1.Model building
@@ -8,27 +8,27 @@ Ans:
 
 *********************************
 
-Assign2: What is the standard approach to supervised learning?
+Question2: What is the standard approach to supervised learning?
 
 Ans: 
 In supervised learning we gather labeled data and we apply data preprocessing and cleaning on the data sets. Then we divide the 
 into training sets and test sets. 80:20 ratio is considered as a good proportion for train-test-split.Then we again divide the training data into further new training data sets and validation data sets. we choose one of the suitable algorithm.Then we train machine learning model on new training data sets and tune+evaluate the model using validation data.once the model is performing well on validation data then we test the model over test set. if the prediction is not accurate to our expectation, we repeat the steps.
 
 **********************************
-Assign3: What is Training set and Test set?
+Question3: What is Training set and Test set?
 
 Ans: 
 In machine learning, a training set is a dataset used to train a model. In training the model, specific features are picked out from the training set. These features are then incorporated into the model. The test set is a dataset used to measure how well the model performs at making predictions on that test set.
 
 ***********************************
-Assign4:What is the general principle of an ensemble method and what is bagging and boosting in ensemble method?
+Question4:What is the general principle of an ensemble method and what is bagging and boosting in ensemble method?
 
 Ans: 
 The general principle of an ensemble method is to combine the predictions of several models built with a given learning algorithm in order to improve robustness over a single model. Bagging is used when the goal is to reduce the variance of a decision tree classifier. Here the objective is to create several subsets of data from training sample chosen randomly with replacement. Each collection of subset data is used to train their decision trees. Boosting is an ensemble method for improving the model predictions of any given learning algorithm. The idea of boosting is to train weak learners sequentially, each trying to correct its predecessor.
 
 ******************************************
 
-Assign5: How can you avoid overfitting ?
+Question5: How can you avoid overfitting ?
 
 Ans: 
 There are few methods to prevents from overfitting
